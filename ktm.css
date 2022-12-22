@@ -1,0 +1,313 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+
+.container-fluid {
+    float: left;
+    width: 90%;
+    padding-top: 2%;
+}
+
+.main {
+    background-image: url(https://s7g10.scene7.com/is/image/ktm/waw-video2:XLarge?wid=2363&hei=1350&dpr=off);
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+}
+
+.textfam {
+    font-family: sans-serif;
+}
+
+.logodiv {
+    float: right;
+    margin-right: 1%;
+}
+
+.logo {
+    width: 9em;
+}
+
+.icon {
+    display: flex;
+    list-style: none;
+    padding-right: 2em;
+    float: left;
+}
+
+.icon-color {
+    color: #f60;
+    font-size: 1.3em;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    #leftSideHeader {
+        margin: 0px;
+    }
+
+    .container-fluid {
+        width: 85%;
+        padding: 0%;
+    }
+
+    .logodiv {
+        margin-right: 0%;
+    }
+
+    .section2 {
+        width: 80% !important;
+    }
+
+    .ktm890 {
+        font-size: 3em !important;
+    }
+
+    .linediv {
+        width: 85% !important;
+    }
+
+    .card {
+        margin: 0% !important;
+    }
+
+}
+
+.head-1 {
+    font-family: sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.3em;
+    flex-wrap: wrap;
+}
+
+.head-2 {
+    font-family: sans-serif;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 4.5rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.buttondiv {
+    text-align: center;
+
+}
+
+.button1 {
+    height: 4.5em;
+    width: 10.5em;
+    margin-left: -3em;
+    color: white;
+    border-width: 0.1em;
+    font-weight: bold;
+    font: sans-serif;
+    border-radius: 0%;
+    border-color: #f60;
+    background-color: #f60;
+    margin-bottom: 1em;
+}
+
+.button2 {
+    height: 4.5em;
+    width: 13em;
+    color: aliceblue;
+    border-color: #f60;
+    background-color: #f60;
+    border-width: 0.1em;
+    font-weight: bold;
+    font: sans-serif;
+    border-radius: 0%;
+}
+
+@media only screen and (max-width: 500px) {
+    .head-2 {
+        font-size: 4.5vh;
+    }
+
+    .footpara {
+        margin-left: 5em !important;
+    }
+}
+
+
+.button1:hover {
+    background-color: transparent;
+    color: #f60;
+}
+
+.buttondiv.button1:hover {
+    background-color: transparent;
+    color: #f60;
+}
+
+.button2:hover {
+    background-color: transparent;
+    color: #f60;
+}
+
+.maincontent {
+    padding: 0%;
+    padding-top: 20em;
+}
+
+.div2 {
+    text-align: center;
+    padding-top: 8%;
+    margin: 0%;
+}
+
+.brand {
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.ktm890 {
+    flex-wrap: wrap;
+    font-size: 4em;
+    font-weight: bold;
+    color: #f60;
+}
+
+.button3 {
+    height: 4.5em;
+    width: 10.5em;
+    margin-left: -3em;
+    color: black;
+    border-width: 0.1em;
+    font-weight: bold;
+    font: sans-serif;
+    border-radius: 0%;
+    border-color: black;
+    background-color: transparent;
+    margin-bottom: 1em;
+}
+
+.button3:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.button4 {
+    height: 4.5em;
+    width: 13.5em;
+    color: aliceblue;
+    border-color: rgb(6, 6, 6);
+    background-color: black;
+    border-width: 0.1em;
+    font-weight: bold;
+    font: sans-serif;
+    border-radius: 0%;
+}
+
+.button4:hover {
+    background-color: white;
+    color: black;
+}
+
+.ktmpic {
+    height: 100%;
+    width: 100%;
+}
+
+.section2 {
+    width: 100%;
+}
+
+.cardHead:hover {
+    color: #f60;
+}
+
+.insta {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.line {
+    text-align: center;
+}
+
+.follow {
+    height: 4.5em;
+    width: 10.5em;
+    color: white;
+    border-width: 0.1em;
+    font-weight: bold;
+    font: sans-serif;
+    border-radius: 0%;
+    border-color: white;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.follow:hover {
+    border-color: #f60;
+    color: #f60;
+}
+
+.linediv {
+    margin-top: 190%;
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+    position: absolute;
+    text-align: center;
+}
+
+.mixpic {
+    width: 100%;
+}
+
+.buttondiv {
+    text-align: center;
+}
+
+.footpara {
+    height: 20%;
+    width: 60%;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 15em;
+}
+
+.paratext {
+    margin-top: 20%;
+    font-size: 0.8em;
+}
+
+.container {
+    position: relative;
+}
+
+.foot {
+    background-color: black;
+    width: 100%;
+}
+
+.back {
+    margin-top: -2%;
+}
